@@ -1,6 +1,6 @@
 {
-    "name": "spirit-systems/daybyday-contacts",
-    "description": "Provide contacts for DayByDay CRM clients",
+    "name": "spirit-systems/daybyday-core",
+    "description": "Allow for menu overrides/other core overrides",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -11,14 +11,14 @@
     ],
     "autoload": {
 	    "psr-4": {
-		    "SpiritSystems\\DayByDay\\Contacts\\": "src/"
+		    "SpiritSystems\\DayByDay\\Core\\": "src/"
 	    }
 
     },
     "extra": {
 	    "laravel": {
 		    "providers":[ 
-			    "SpiritSystems\\DayByDay\\Contacts\\Providers\\DayByDayServiceProvider"
+			    "SpiritSystems\\DayByDay\\Core\\Providers\\DayByDayServiceProvider"
 		    ]
 	    }
     },

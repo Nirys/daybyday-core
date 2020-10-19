@@ -1,6 +1,6 @@
 <?php
 
-namespace SpiritSystems\DayByDay\Contacts\Providers;
+namespace SpiritSystems\DayByDay\Core\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
