@@ -1,0 +1,1 @@
+<livewire:outcome-by-period  />
